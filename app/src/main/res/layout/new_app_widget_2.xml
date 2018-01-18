@@ -19,68 +19,26 @@
             android:id="@+id/clock_container"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
-            android:layout_weight="4.5"
+            android:layout_weight=".4"
             android:background="@android:color/holo_orange_dark"
             android:baselineAligned="false"
             android:orientation="horizontal">
-
             <TextClock
-                android:id="@+id/timeClock"
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:format12Hour="h:mm"
                 android:gravity="center"
-                android:textSize="40sp"
-                android:padding="0dp"
-                android:layout_margin="0dp"
-                android:includeFontPadding="false"/>
+                android:textSize="60sp"/>
 
-            <TextClock
-                android:id="@+id/timeClock_ampm"
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
-                android:layout_weight="3"
-                android:format12Hour="a"
-                android:format24Hour=""
-                android:gravity="center"
-                android:textAlignment="viewStart"
-                android:textSize="10sp" />
+
         </LinearLayout>
         <LinearLayout
             android:id="@+id/date_container"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
-            android:layout_weight="5.5"
+            android:layout_weight=".6"
             android:background="@android:color/holo_orange_light"
             android:baselineAligned="false"
-            android:orientation="vertical">
-            <TextClock
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/dateTextClock"
-                android:format12Hour="MMM dd, yyyy"
-                android:format24Hour="MMM dd, yyyy"
-                android:layout_gravity="center"
-                />
-            <TextClock
-                android:id="@+id/daytextClock"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:format12Hour="EEEE"
-                android:format24Hour="EEEE"
-                />
-            <TextView
-                android:id="@+id/alarmTextView"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:text="07:00"
-                />
-
-
-        </LinearLayout>
+            android:orientation="horizontal"/>
     </LinearLayout>
 
     <LinearLayout

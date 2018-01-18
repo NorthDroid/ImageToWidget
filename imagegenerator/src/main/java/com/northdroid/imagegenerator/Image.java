@@ -7,8 +7,8 @@ import android.graphics.Bitmap;
  */
 
 public class Image {
-    public Bitmap render(){
-
-        return new Bitmap.createBitmap(R.drawable.sample);
-    }
+//    public Bitmap render(){
+//
+//        return new Bitmap.createBitmap(R.drawable.sample);
+//    }
 }
