@@ -11,6 +11,8 @@ import android.util.Log;
 import android.util.TypedValue;
 import android.widget.RemoteViews;
 
+import com.northdroid.imageutility.DrawingToBitmap;
+
 /**
  * Implementation of App Widget functionality.
  */
@@ -23,6 +25,7 @@ public class NewAppWidget extends AppWidgetProvider {
     static void updateAppWidget(Context context, AppWidgetManager appWidgetManager,
                                 int appWidgetId) {
 
+        DrawingToBitmap d2b = new DrawingToBitmap();
 
         final Bundle appWidgetOptions = appWidgetManager.getAppWidgetOptions(appWidgetId);
         if (appWidgetOptions != null) {
@@ -88,6 +91,7 @@ public class NewAppWidget extends AppWidgetProvider {
         views.setTextViewTextSize(R.id.dateTextClock, TypedValue.COMPLEX_UNIT_DIP,fontSize(3));
         views.setTextViewTextSize(R.id.daytextClock, TypedValue.COMPLEX_UNIT_DIP,fontSize(3));
         views.setTextViewTextSize(R.id.alarmTextView, TypedValue.COMPLEX_UNIT_DIP,fontSize(2));
+        views.setTextViewTextSize(R.id.tempTextView, TypedValue.COMPLEX_UNIT_DIP,fontSize(7));
 
 
 
