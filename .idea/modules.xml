@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/ImageToWidget.iml" filepath="$PROJECT_DIR$/ImageToWidget.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/imagegenerator/imagegenerator.iml" filepath="$PROJECT_DIR$/imagegenerator/imagegenerator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/imageutility/imageutility.iml" filepath="$PROJECT_DIR$/imageutility/imageutility.iml" />
     </modules>
   </component>
 </project>
